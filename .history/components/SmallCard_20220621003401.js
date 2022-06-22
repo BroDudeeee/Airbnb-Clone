@@ -1,0 +1,21 @@
+import Image from "next/image"
+
+const SmallCard = ({ img, distance, location}) => {
+  return (
+    <div className='flex'>
+      <div className="relative h-16 w-16">
+        <Image 
+          src={img}
+          layout='fill'
+          className="rounded-lg"
+        />
+      </div>
+      <div>
+        <p>{distance}</p>
+        <p>{location}</p>
+      </div>
+    </div>
+  )
+}
+
+export default SmallCard
