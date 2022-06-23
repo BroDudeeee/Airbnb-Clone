@@ -10,7 +10,7 @@ const Banner = () => {
       />
       <div className="absolute top-1/2 w-full text-center text-white">
         <p className="text-2xl">Not sure where to go? Perfect</p>
-        <button className="font-bold text-lg text-blue-900 bg-white py-4 px-8 rounded-full shadow-md hover:shadow-xl active:scale-90 transition duration-200 ease-out mt-2 outline-none">I'm flexible</button>
+        <button className="font-bold text-lg text-blue-900 bg-white py-4 px-8 rounded-full shadow-md hover:shadow-xl active:scale-90 transition duration-200 ease-out mt-2 outline-none">I am flexible</button>
       </div>
     </div>
   )
